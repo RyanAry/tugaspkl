@@ -1,0 +1,37 @@
+section {
+  padding-top: 5rem;
+}
+.navbar {
+  background-color: #000367;
+}
+#populer {
+  background-color: #000367;
+}
+#promo {
+  background-color: #000367;
+}
+#populer .card {
+  border-radius: 1rem;
+}
+#populer img {
+  border-radius: 1rem;
+}
+#populer .btn {
+  border-radius: 1rem;
+}
+
+#games .card {
+  border-radius: 1rem;
+  background-color: #000367;
+}
+#games img {
+  border-radius: 1rem;
+}
+#games .btn {
+  border-radius: 1rem;
+  background-color: #fff;
+  color: #000367;
+}
+#games h5 {
+  color: #fff;
+}

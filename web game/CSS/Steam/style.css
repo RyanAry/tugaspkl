@@ -1,0 +1,87 @@
+.persegi_panjang {
+  width: 1550px;
+  height: 2100px;
+  background-color: #000367;
+  border-radius: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.navbar {
+  background-color: #000367;
+}
+.card {
+  width: 33rem;
+}
+
+#home_valorant {
+  stroke: #000367;
+  stroke-width: 1000px;
+}
+body {
+  height: 3000px;
+}
+
+.btn {
+  margin-left: 20rem;
+  padding: 10px 60px;
+  background: #000367;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+
+.popup {
+  width: 400px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 030px 30px;
+  color: #ffffff;
+  visibility: hidden;
+}
+.open-popup {
+  visibility: visible;
+  top: 100%;
+  transform: translate(-50%, -50%) scale(1);
+}
+.popup img {
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 02px 5px rgba(0, 0, 0, 0.2);
+}
+.popup h2 {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px®10px;
+}
+.popup button {
+  padding: 10px 60px;
+  background: #000367;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+
+#footer {
+  background-color: #000367;
+  color: #ffffff;
+}
+#footer a {
+  background-color: #000367;
+  color: #ffffff;
+}
+
+.card {
+  border-radius: 1.2rem;
+}

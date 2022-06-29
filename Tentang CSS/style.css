@@ -1,0 +1,15 @@
+section {
+  padding-top: 5rem;
+}
+.navbar {
+  background-color: #000367;
+}
+#unggulan {
+  background-color: #000367;
+  color: #ffffff;
+}
+lingkaran {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
