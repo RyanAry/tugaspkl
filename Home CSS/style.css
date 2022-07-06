@@ -1,39 +1,61 @@
 section {
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
+
 .navbar {
-  background-color: #000367;
+  background-color: #21232b;
 }
 #populer {
-  background-color: #000367;
+  padding-bottom: 5rem;
+  background-color: #21232b;
 }
 #promo {
-  background-color: #000367;
+  background-color: #21232b;
 }
 #populer .card {
   border-radius: 1rem;
+  background-color: #e6f0f2;
 }
 #populer img {
   border-radius: 1rem;
 }
 #populer .btn {
   border-radius: 1rem;
+  background-color: #21232b;
 }
 
+#games {
+  padding-bottom: 5rem;
+  background-color: #e6f0f2;
+}
 #games .card {
   border-radius: 1rem;
-  background-color: #000367;
+  background-color: #21232b;
 }
 #games img {
   border-radius: 1rem;
 }
 #games .btn {
   border-radius: 1rem;
-  background-color: #fff;
-  color: #000367;
+  background-color: #e6f0f2;
+  color: #21232b;
 }
 #games h5 {
-  color: #fff;
+  color: #e6f0f2;
+}
+#unggulan {
+  background-color: #21232b;
+  color: #ffffff;
+  padding-bottom: 5rem;
+}
+
+#footer {
+  background-color: #e6f0f2;
+  color: #21232b;
+  padding-bottom: 1rem;
+}
+#footer a {
+  color: #21232b;
 }
 
 #home h4 {
@@ -41,29 +63,17 @@ section {
 }
 #home h1,
 h4 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  animation: typing 5s steps(30, end), blink-caret 0.75s step-end infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 5s;
 }
 
-/* The typing effect */
 @keyframes typing {
   from {
     width: 0;
   }
   to {
     width: 100%;
-  }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: transparent;
   }
 }
