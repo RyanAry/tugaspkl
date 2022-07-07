@@ -8,16 +8,15 @@ section {
 #populer {
   padding-bottom: 5rem;
   background-color: #21232b;
+  width: 100%;
 }
 #promo {
   background-color: #21232b;
+  width: 100%;
 }
 #populer .card {
   border-radius: 1rem;
   background-color: #e6f0f2;
-}
-#populer img {
-  border-radius: 1rem;
 }
 #populer .btn {
   border-radius: 1rem;
@@ -93,4 +92,5 @@ h4 {
   margin-right: auto;
   margin-top: -50px;
   border: 2px solid white;
+  border-radius: 1rem;
 }
