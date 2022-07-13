@@ -60,10 +60,14 @@ section {
 #home h4 {
   text-align: center;
 }
-#home h1,
-h4 {
+#home h1 {
   overflow: hidden;
   white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 5s;
+}
+#home h4 {
+  overflow: hidden;
   margin: 0 auto;
   animation: typing 5s;
 }
