@@ -1,9 +1,47 @@
+@media screen and (min-width: 600px) {
+  .logo {
+    margin-left: 450px;
+    margin-top: -175px;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      margin-left: 650px;
+    }
+    10% {
+      opacity: 1;
+      margin-left: 800px;
+    }
+    90% {
+      opacity: 1;
+      margin-left: 800px;
+    }
+    100% {
+      opacity: 0;
+      margin-left: 650px;
+    }
+  }
+  .logotext {
+    animation: slide 10s infinite;
+  }
+  .cap {
+    animation: slide 10s infinite;
+  }
+  .logotext {
+    margin-top: 50px;
+    visibility: visible;
+  }
+}
+
 section {
   padding-top: 6rem;
 }
-
 .navbar {
   background-color: #21232b;
+}
+.navbar img {
+  width: 50px;
+  height: 50px;
 }
 #populer {
   padding-bottom: 5rem;
@@ -16,7 +54,7 @@ section {
 }
 #populer .card {
   border-radius: 1rem;
-  background-color: #e6f0f2;
+  background-color: white;
 }
 #populer .btn {
   border-radius: 1rem;
@@ -25,7 +63,7 @@ section {
 
 #games {
   padding-bottom: 5rem;
-  background-color: #e6f0f2;
+  background-color: white;
 }
 #games .card {
   border-radius: 1rem;
@@ -36,11 +74,11 @@ section {
 }
 #games .btn {
   border-radius: 1rem;
-  background-color: #e6f0f2;
+  background-color: white;
   color: #21232b;
 }
 #games h5 {
-  color: #e6f0f2;
+  color: white;
 }
 #unggulan {
   background-color: #21232b;
@@ -49,36 +87,12 @@ section {
 }
 
 #footer {
-  background-color: #e6f0f2;
+  background-color: white;
   color: #21232b;
   padding-bottom: 1rem;
 }
 #footer a {
   color: #21232b;
-}
-
-#home h4 {
-  text-align: center;
-}
-#home h1 {
-  overflow: hidden;
-  white-space: nowrap;
-  margin: 0 auto;
-  animation: typing 5s;
-}
-#home h4 {
-  overflow: hidden;
-  margin: 0 auto;
-  animation: typing 5s;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
 }
 
 .card {
@@ -97,4 +111,18 @@ section {
   margin-top: -50px;
   border: 2px solid white;
   border-radius: 1rem;
+}
+
+.logo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+}
+.logotext {
+  margin-left: 100px;
+}
+.cap {
+  opacity: 0;
 }
