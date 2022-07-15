@@ -1,24 +1,24 @@
 @media screen and (min-width: 600px) {
   .logo {
-    margin-left: 700px;
+    margin-left: 400px;
     margin-top: -175px;
   }
   @keyframes slide {
     0% {
       opacity: 0;
-      margin-left: 750px;
+      margin-left: 550px;
     }
     10% {
       opacity: 1;
-      margin-left: 1100px;
+      margin-left: 800px;
     }
     90% {
       opacity: 1;
-      margin-left: 1100px;
+      margin-left: 800px;
     }
     100% {
       opacity: 0;
-      margin-left: 750px;
+      margin-left: 550px;
     }
   }
   .logotext {
