@@ -15,7 +15,7 @@
     margin-bottom: -700px;
   }
   .kotak_bayar {
-    margin-top: -430px;
+    margin-top: -400px;
   }
   .kotak_email button {
     margin-left: 300px;
@@ -23,7 +23,12 @@
 }
 @media screen and (max-width: 600px) {
   .nominal p {
-    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .kotak_nama h1 {
+    padding: 20px;
+    margin-left: 20px;
   }
 }
 
@@ -36,19 +41,20 @@ nav {
 }
 .kotak {
   width: 100%;
-  height: 1000px;
+  height: max-content;
   background-color: #21232b;
   border-radius: 50px;
   margin-bottom: 20px;
 }
 .kotak_nama {
-  width: min(350px, 75vw);
-  height: 65px;
+  width: max-content;
+  height: max-content;
   background-color: #494949;
   border-radius: 20px;
-  margin-left: min(30px, 25vw);
+  margin-left: 30px;
   margin-right: 70px;
   margin-top: 25px;
+  padding: 10px;
 }
 .kotak img {
   width: min(350px, 75vw);
@@ -165,7 +171,7 @@ nav {
 .nominal {
   margin-top: 50px;
 }
-.nominal p {
+.nominal span {
   text-align: center;
   display: inline-block;
   padding: 5px;
