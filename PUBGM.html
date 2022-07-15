@@ -7,226 +7,203 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <!-- CSS -->
-    <link rel="stylesheet" href="web game/CSS/PUBGM/style.css" />
+    <link rel="stylesheet" href="web game/PUBGM/style.css" />
     <title>Mang TopUp</title>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Mang TopUp</a>
+        <a class="navbar-brand" href="index.html"><img src="img/Main/Untitled-1.png" alt="" /><span>Mang TopUp</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"></li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang.html">about</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path
-        fill="#000367"
-        fill-opacity="1"
-        d="M0,256L48,245.3C96,235,192,213,288,176C384,139,480,85,576,101.3C672,117,768,203,864,229.3C960,256,1056,224,1152,208C1248,192,1344,192,1392,192L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-      ></path>
-    </svg>
     <!-- /Navbar -->
-    <!-- Isi  -->
-    <div id="home_valorant">
-      <div class="persegi_panjang">
-        <br /><br />
-        <div class="row">
-          <div class="col-md-10">
-            <img width="1550" height="900" src="img/Banner/PUBGM/1920x1080-pubg-mobile-laptop-full-hd-1080p-hd-4k-preview.jpg" alt="" />
-          </div>
-        </div>
-        <br /><br />
-        <div class="container">
-          <div class="row text-start text-light">
-            <div class="col-md-4">
+    <br /><br /><br /><br />
+    <div class="container-md">
+      <!-- Head -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="kotak">
+            <img src="img/Logo/PUBG.webp" alt="" />
+            <div class="kotak_nama">
               <h1>PUBGM</h1>
-              <p>Harga sudah termasuk PPN terkecuali pembayaran menggunakan pulsa</p>
-              <p>Top up PUBGM hanya dalam hitungan detik! Cukup masukan ID Anda, pilih jumlah UC yang Anda inginkan, selesaikan pembayaran, dan Poin akan secara langsung ditambahkan ke akun Anda.</p>
-              <p>Bayarlah menggunakan GoPay, ShopeePay, Dana, OVO, LinkAja, Telkomsel, Indosat, Tri, XL, Bank Transfer, Indomaret, Alfamart, Kredivo, Kartu Kredit, dan Doku Wallet. Tanpa perlu kartu kredit, registrasi ataupun log-in.</p>
             </div>
-            <div class="col-2"></div>
-            <div class="col-md-4">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title"><h1 class="text-dark">MASUKAN ID</h1></h5>
-                  <label for="user-id"></label><br />
-                  <input size="60" type="text" id="user-id" placeholder="Masukan ID" required />
-                  <i class="text-dark">Untuk mengetahui User ID Anda, silakan klik menu profile. User ID akan terlihat dibagian atas Nama Karakter Game Anda. Silakan masukkan User ID Anda untuk menyelesaikan transaksi.</i>
-                  <img src="img/Hint/ID/PUBGM/guide002.png" class="card-img-top" alt="..." />
+            <p>Top up hanya dalam hitungan detik! Cukup masukan User ID Anda, pilih jumlah Vouchers yang Anda inginkan, selesaikan pembayaran, dan Vouchers akan secara langsung ditambahkan ke akun Arena of Valor Anda.</p>
+            <p>Harga yang kami tawarkan di web ini sudah termasuk PPN terkecuali pembayaran menggunakan pulsa</p>
+            <div class="store_1">
+              <a href="https://play.google.com/store/apps/details?id=com.garena.game.kgid&hl=in&gl=US"><img src="img/Store/id_badge_web_generic.png" alt="" /></a>
+            </div>
+            <div class="store_2">
+              <a href="https://apps.apple.com/id/app/garena-aov-aov-day/id1222857607"><img src="img/Store/NicePng_app-store-logo-png_2357202.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <br />
+        <!--/head-->
+        <!--body-id-->
+        <div class="col-md-8">
+          <div class="kotak_ID">
+            <div class="lingkaran fw-bold">1</div>
+            <div class="sub-judul fw-bold">MASUKAN ID</div>
+            <form>
+              <input type="text" name="ID Pengguna" id="ID" placeholder="Masukan ID" />
+            </form>
+            <i>Untuk menemukan ID Pemain Anda, silahkan ke profil anda</i>
+            <br />
+            <button type="submit" class="btn_ID text-light" onclick="openPopup()">Hint</button>
+          </div>
+        </div>
+        <div class="popup_ID" id="popup_ID">
+          <img src="img/Hint/ID/PUBGM/guide002.png" />
+          <button class="text-light" type="button" onclick="closePopup()">OK</button>
+        </div>
+        <!--/body-id-->
+        <!--body-nominal-->
+        <div class="col-md-4"></div>
+        <div class="col-md-8">
+          <div class="kotak_harga">
+            <div class="lingkaran fw-bold">2</div>
+            <div class="sub-judul fw-bold">PILIH NOMINAL</div>
+            <div class="nominal">
+              <div class="row">
+                <div class="col-md-4">
+                  <label
+                    ><input type="radio" name="nominal" id="1" /><span><p>150</p> </span></label
+                  >
                 </div>
-              </div>
-            </div>
-            <div class="col-md-6"></div>
-            <div class="col-md-4">
-              <br />
-              <div class="card">
-                <div class="card-body">
-                  <h1 class="text-uppercase text-dark">Pilih Nominal TopUp</h1>
-                  <div class="col-md-4">
-                    <div class="card_nominal">
-                      <input type="radio" name="pricing" id="card1" />
-                      <label for="card1">
-                        <h5>UC : 5</h5>
-                        <h2>
-                          <span class="fw-bold">IDR</span>
-                          2.000
-                        </h2>
-                      </label>
-                    </div>
-                  </div>
-                  <br />
-                  <div class="col-md-4">
-                    <div class="card_nominal">
-                      <input type="radio" name="pricing" id="card2" />
-                      <label for="card2">
-                        <h5>UC : 11</h5>
-                        <h2>
-                          <span class="fw-bold">IDR</span>
-                          5.000
-                        </h2>
-                      </label>
-                    </div>
-                  </div>
-                  <br />
-                  <div class="col-md-4">
-                    <div class="card_nominal">
-                      <input type="radio" name="pricing" id="card3" />
-                      <label for="card3">
-                        <h5>UC : 50</h5>
-                        <h2>
-                          <span class="fw-bold">IDR</span>
-                          15.000
-                        </h2>
-                      </label>
-                    </div>
-                  </div>
-                  <br />
-                  <div class="card_nominal">
-                    <input type="radio" name="pricing" id="card4" checked />
-                    <label for="card4">
-                      <h5>UC : 210</h5>
-                      <h2>
-                        <span class="fw-bold">IDR</span>
-                        35.000
-                      </h2>
-                    </label>
-                  </div>
-                  <br />
-                  <div class="card_nominal">
-                    <input type="radio" name="pricing" id="card5" />
-                    <label for="card5">
-                      <h5>UC : 325</h5>
-                      <h2>
-                        <span class="fw-bold">IDR</span>
-                        70.000
-                      </h2>
-                    </label>
-                  </div>
+                <div class="col-md-4">
+                  <label
+                    ><input type="radio" name="nominal" id="2" /><span><p>150</p></span></label
+                  >
                 </div>
-              </div>
-            </div>
-            <div class="col-md-6"></div>
-            <div class="col-md-4">
-              <br />
-              <div class="card">
-                <div class="card-body">
-                  <h1 class="text-uppercase text-dark">Pembayaran</h1>
-                  <div class="col-md-4">
-                    <div class="card_pembayaran">
-                      <input type="radio" name="pricing" id="card1" />
-                      <label for="card1">
-                        <h2>GoPay</h2>
-                      </label>
-                    </div>
-                  </div>
-                  <br />
-                  <div class="col-md-4">
-                    <div class="card_pembayaran">
-                      <input type="radio" name="pricing" id="card2" />
-                      <label for="card2">
-                        <h2>OVO</h2>
-                      </label>
-                    </div>
-                  </div>
-                  <br />
-                  <div class="col-md-4">
-                    <div class="card_pembayaran">
-                      <input type="radio" name="pricing" id="card3" />
-                      <label for="card3">
-                        <h2>Indomaret</h2>
-                      </label>
-                    </div>
-                  </div>
-                  <br />
-                  <div class="card_pembayaran">
-                    <input type="radio" name="pricing" id="card4" checked />
-                    <label for="card4">
-                      <h2>Alfamart</h2>
-                    </label>
-                  </div>
-                  <br />
-                  <div class="card_pembayaran">
-                    <input type="radio" name="pricing" id="card5" />
-                    <label for="card5">
-                      <h2>ATM</h2>
-                    </label>
-                  </div>
+                <div class="col-md-4">
+                  <label
+                    ><input type="radio" name="nominal" id="3" /><span><p>150</p></span></label
+                  >
                 </div>
-              </div>
-            </div>
-            <div class="col-md-6"></div>
-            <div class="col-md-4">
-              <br />
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title"><h2 class="text-uppercase text-dark">Beli!</h2></h5>
-                  <label class="text-dark" for="email"></label>
-                  <i class="text-dark">Jika anda ingin mendapatkan bukti pembayaran atas pembelian anda, harap mengisi alamat emailnya</i>
-                  <input size="60" type="text" id="email" placeholder="Masukan email" />
-                  <br />
-                  <div class="container">
-                    <button type="submit" class="btn text-light" onclick="openPopup()"><a href="#home_valorant" class="text-light">Beli!</a></button>
-                  </div>
+                <div class="col-md-4">
+                  <label
+                    ><input type="radio" name="nominal" id="4" /><span><p>150</p></span></label
+                  >
+                </div>
+                <div class="col-md-4">
+                  <label
+                    ><input type="radio" name="nominal" id="5" /><span><p>150</p></span></label
+                  >
+                </div>
+                <div class="col-md-4">
+                  <label
+                    ><input type="radio" name="nominal" id="5" /><span><p>150</p></span></label
+                  >
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <!--/body-nominal-->
+        <!--body-bayar-->
+        <div class="col-md-4"></div>
+        <div class="col-md-8">
+          <div class="kotak_bayar">
+            <div class="lingkaran fw-bold">3</div>
+            <div class="sub-judul fw-bold">PEMBAYARAN</div>
+            <div class="card_bayar">
+              <input type="radio" name="harga" id="card1" />
+              <label for="card4">
+                <h5>E-Wallet</h5>
+                <h2>
+                  <span>GoPay,Ovo, Dana</span>
+                </h2>
+              </label>
+            </div>
+            <div class="card_bayar">
+              <input type="radio" name="harga" id="card2" />
+              <label for="card5">
+                <h4>Seluler</h4>
+                <h2>
+                  <span>Telkom</span>
+                </h2>
+              </label>
+            </div>
+          </div>
+        </div>
+        <!--/body-bayar-->
+        <!--body-konfirmasi-->
+        <div class="col-md-4"></div>
+        <div class="col-md-8">
+          <div class="kotak_email">
+            <div class="lingkaran fw-bold">4</div>
+            <div class="sub-judul fw-bold">KONFIRMASI</div>
+            <form>
+              <input type="email" name="email" id="6" placeholder="Email" />
+              <i>Opsional : jika anda ingin mendapatkan bukti pembayaran atas pembelian anda, harap mengisi alamat emailnya</i>
+            </form>
+            <button type="submit" class="btn_beli text-light" onclick="openPopup_beli()">beli</button>
+          </div>
+        </div>
       </div>
-      <div class="popup" id="popup">
-        <img src="img/Popup/404-tick.png" />
-        <h2 class="text-dark">Terimakasih!</h2>
-        <p class="text-dark">Pembelian anda sedang di proses</p>
-        <button class="text-light" type="button" onclick="closePopup()">OK</button>
-      </div>
-      <br />
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path
-        fill="#000367"
-        fill-opacity="1"
-        d="M0,288L26.7,261.3C53.3,235,107,181,160,176C213.3,171,267,213,320,208C373.3,203,427,149,480,117.3C533.3,85,587,75,640,101.3C693.3,128,747,192,800,192C853.3,192,907,128,960,128C1013.3,128,1067,192,1120,192C1173.3,192,1227,128,1280,138.7C1333.3,149,1387,235,1413,277.3L1440,320L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
-      ></path>
-    </svg>
-    <!-- /isi -->
-    <!-- footer -->
-    <footer id="footer">
+    <div class="popup_beli" id="popup_beli">
+      <img src="img/Popup/404-tick.png" />
+      <h2 class="text-dark">Terimakasih!</h2>
+      <p class="text-dark">Pembelian anda sedang di proses</p>
+      <button class="text-light" type="button" onclick="closePopup_beli()">OK</button>
+    </div>
+    <!--/body-konfirmasi-->
+    <!--Keunggulan-->
+    <div class="keunggulan">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <h1>Mang TopUp</h1>
+          <p>
+            Setiap bulannya, jutaan gamers menggunakan Mang TopUp untuk melakukan pembelian kredit game dengan lancar: tanpa registrasi ataupun log-in, dan kredit permainan akan ditambahkan secara instan. Top-up Mobile Legends, Free Fire,
+            Ragnarok M, dan berbagai game lainnya!
+          </p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <img src="img/Unggulan/easy_and_fast_portal.png" alt="" />
+          <h4>Bayar dalam hitungan detik</h4>
+          <p>Hanya dibutuhkan beberapa detik saja untuk menyelesaikan pembayaran di karena situs kami berfungsi dengan baik dan mudah untuk digunakan.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/Unggulan/instant_delivery_portal.png" alt="" />
+          <h4>Pengiriman instan</h4>
+          <p>Ketika kamu melakukan top-up di Mang TopUp, item atau barang yang kamu beli akan selalu dikirim ke akun kamu secara instan dan cepat, tanpa tertunda.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/Unggulan/payment_method_portal.png" alt="" />
+          <h4>Metode pembayaran terbaik</h4>
+          <p>Kami menawarkan begitu banyak pilihan pembayaran mulai dari potong pulsa, e-wallet, bank transfer, dan pembayaran di mini market terdekat.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/Unggulan/promotion_portal.png" alt="" />
+          <h4>Promosi-promosi menarik</h4>
+          <p>Penggemar game dapat bergantung pada Mang TopUp karena kami memberikan penawaran menarik, diskon dan kode item dari promosi game yang disukai kamu.</p>
+        </div>
+      </div>
+    </div>
+    <!--/Keunggulan-->
+    <!-- Footer -->
+    <div class="footer">
       <h1 class="text-center">Terimakasih Telah Berkunjung</h1>
       <p class="text-center fw-bold text">Di Buat Oleh <a href="https://www.instagram.com/exmraw/" target="_blank">RyanAry</a></p>
-    </footer>
-    <!-- /footer -->
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    </div>
+    <!-- /Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="Popup.js"></script>
   </body>

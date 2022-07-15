@@ -10,8 +10,12 @@
   .kotak_ID button {
     margin-left: 300px;
   }
+  .kotak_nama h1 {
+    margin-left: 130px;
+    margin-right: 130px;
+  }
   .kotak_harga {
-    margin-top: -700px;
+    margin-top: -690px;
     margin-bottom: -700px;
   }
   .kotak_bayar {
@@ -30,7 +34,8 @@
     padding-right: 50px;
   }
   .kotak_nama h1 {
-    padding: 35px;
+    margin-left: 130px;
+    margin-right: 130px;
   }
 }
 
@@ -176,13 +181,12 @@ nav {
 .nominal span {
   text-align: center;
   display: inline-block;
-  padding: 5px;
   text-transform: uppercase;
   border: 2px solid white;
   border-radius: 50px;
   margin-bottom: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
   font-weight: bold;
   font-size: 20px;
   color: #ffffff;

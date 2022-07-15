@@ -1,24 +1,24 @@
 @media screen and (min-width: 600px) {
   .logo {
-    margin-left: 450px;
+    margin-left: 700px;
     margin-top: -175px;
   }
   @keyframes slide {
     0% {
       opacity: 0;
-      margin-left: 650px;
+      margin-left: 750px;
     }
     10% {
       opacity: 1;
-      margin-left: 800px;
+      margin-left: 1100px;
     }
     90% {
       opacity: 1;
-      margin-left: 800px;
+      margin-left: 1100px;
     }
     100% {
       opacity: 0;
-      margin-left: 650px;
+      margin-left: 750px;
     }
   }
   .logotext {
@@ -32,7 +32,14 @@
     visibility: visible;
   }
 }
-
+@media screen and (max-width: 600px) {
+  .logotext {
+    text-align: center;
+  }
+  .cap {
+    visibility: hidden;
+  }
+}
 section {
   padding-top: 6rem;
 }
@@ -119,11 +126,4 @@ section {
   border-radius: 50px;
   margin-bottom: 100px;
   margin-left: 100px;
-}
-.logotext {
-  margin-left: 105px;
-  margin-top: 20px;
-}
-.cap {
-  opacity: 0;
 }

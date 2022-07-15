@@ -1,0 +1,350 @@
+@media screen and (min-width: 600px) {
+  #popup_ID {
+    top: 45%;
+    margin-left: 200px;
+  }
+  #popup_beli {
+    top: -25%;
+    margin-left: 200px;
+  }
+  .kotak_ID button {
+    margin-left: 300px;
+  }
+  .kotak_nama h1 {
+    text-align: center;
+  }
+  .kotak_harga {
+    margin-top: -650px;
+    margin-bottom: -700px;
+  }
+  .kotak_bayar {
+    margin-top: -350px;
+  }
+  .kotak_email button {
+    margin-left: 300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .kotak {
+    margin-top: 100px;
+  }
+  .nominal p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .kotak_nama h1 {
+    padding: 35px;
+  }
+}
+
+nav {
+  background-color: #21232b;
+}
+.navbar img {
+  width: 50px;
+  height: 50px;
+}
+.kotak {
+  width: 100%;
+  height: max-content;
+  background-color: #21232b;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.kotak_nama {
+  width: max-content;
+  height: max-content;
+  background-color: #494949;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-right: 70px;
+  margin-top: 25px;
+  padding: 10px;
+}
+.kotak img {
+  width: min(350px, 75vw);
+  height: min(350px, 75vw);
+  margin-left: min(30px, 25vw);
+  margin-top: -20px;
+  border-radius: 50px;
+}
+.kotak p {
+  color: white;
+  margin-left: min(50px, 25vw);
+  margin-right: 50px;
+  text-align: justify;
+  margin-top: 20px;
+}
+.kotak_nama h1 {
+  color: white;
+  text-align: center;
+}
+.store_1 img {
+  width: 250px;
+  height: 85px;
+  margin-left: 65px;
+}
+.store_2 img {
+  width: 250px;
+  height: 70px;
+  margin-left: 65px;
+  margin-top: 10px;
+}
+.kotak_ID {
+  width: 100%;
+  height: max-content;
+  background-color: #21232b;
+  border-radius: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.lingkaran {
+  width: 50px;
+  height: 50px;
+  background-color: #494949;
+  border-radius: 50%;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.sub-judul {
+  color: white;
+  margin-top: -50px;
+  font-size: 30px;
+  text-align: center;
+}
+.kotak_ID input {
+  width: 100%;
+  margin-top: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 8px solid #494949;
+}
+.kotak_ID i {
+  color: white;
+  text-align: justify;
+}
+.btn_ID {
+  margin-left: 90px;
+  padding: 10px 60px;
+  background: #494949;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+.popup_ID {
+  width: 500px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 30px 30px;
+  color: #ffffff;
+  visibility: hidden;
+  border: 2px solid #494949;
+}
+.open-popup_ID {
+  visibility: visible;
+  top: 150%;
+  transform: translate(-50%, -50%) scale(1);
+}
+.popup_ID img {
+  width: 100%;
+  margin-top: 20px;
+}
+.popup_ID button {
+  padding: 10px 60px;
+  background-color: #494949;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+.kotak_harga {
+  width: 100%;
+  height: max-content;
+  background-color: #21232b;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.nominal {
+  margin-top: 50px;
+}
+.nominal span {
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  border: 2px solid white;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+}
+.nominal input[type="radio"] {
+  display: none;
+}
+.nominal input[type="radio"]:checked + span {
+  background-color: white;
+  color: black;
+}
+.kotak_bayar {
+  width: 100%;
+  height: max-content;
+  background-color: #21232b;
+  border-radius: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.card_bayar {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 150px;
+  width: 100%;
+  position: relative;
+}
+.card_bayar input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  position: absolute;
+  cursor: pointer;
+  outline: none;
+}
+.card_bayar input[type="radio"]:before {
+  content: "";
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  background-color: transparent;
+  border: 1px solid #e2e6f3;
+  border-radius: 50%;
+  top: 35px;
+  right: 20px;
+}
+.card_bayar input[type="radio"]:after {
+  content: "";
+  position: absolute;
+  height: 13px;
+  width: 13px;
+  background-color: transparent;
+  border-radius: 50%;
+  top: 39.5px;
+  right: 24.5px;
+}
+.card_bayar label {
+  position: absolute;
+  margin: 20px;
+  cursor: pointer;
+}
+.card_bayar h4 {
+  font-weight: 600;
+  font-size: 25px;
+  margin: 15px 0 20px 0;
+}
+.card_bayar h2 {
+  font-size: 28px;
+}
+.card_bayar span {
+  font-weight: 400;
+  font-size: 18px;
+  color: #7b7b93;
+}
+.card_bayar input[type="radio"]:hover {
+  transform: scale(1.01);
+}
+.card_bayar input[type="radio"]:checked {
+  border: 3px solid #478bfb;
+}
+.card_bayar input[type="radio"]:checked:after {
+  background-color: #478bfb;
+}
+.kotak_email {
+  width: 100%;
+  height: max-content;
+  background-color: #21232b;
+  border-radius: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.kotak_email input {
+  width: 100%;
+  margin-top: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 8px solid #494949;
+}
+i {
+  color: #ffffff;
+}
+.btn_beli {
+  margin-left: 90px;
+  padding: 10px 60px;
+  background: #494949;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+
+.popup_beli {
+  width: 400px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 030px 30px;
+  color: #ffffff;
+  visibility: hidden;
+  margin-top: 1700px;
+}
+.open-popup_beli {
+  visibility: visible;
+  top: 100%;
+  transform: translate(-50%, -50%) scale(1);
+}
+.popup_beli img {
+  width: 100px;
+  margin-top: -100px;
+  border-radius: 50%;
+  box-shadow: 02px 5px rgba(0, 0, 0, 0.2);
+}
+.popup_beli h2 {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px®10px;
+}
+.popup_beli button {
+  padding: 10px 60px;
+  background: #494949;
+  border: 0;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+.keunggulan {
+  background-color: #21232b;
+  color: #ffffff;
+  padding-bottom: 5rem;
+}
+.footer {
+  background-color: white;
+  color: #21232b;
+  padding-bottom: 1rem;
+}
+.footer a {
+  color: #21232b;
+}
